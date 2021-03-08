@@ -110,12 +110,15 @@ body {
 
 @keyframes moveInButton {
   0% {
+    /* starts transparent */
     opacity: 0;
+    /* starts 30px down */
     transform: translateY(30px);
   }
 
   100% {
     opacity: 1;
+    /* goes back to original position */
     transform: translate(0);
   }
 }
@@ -176,6 +179,8 @@ body {
 }
 
 .btn-animated {
+  /* 0.5s - duration */
+  /* 0.75s - delay */
   animation: moveInButton 0.5s ease-out 0.75s;
-  animation-fill-mode: backwards;
+  /* animation-fill-mode: backwards; */
 }
