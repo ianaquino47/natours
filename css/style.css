@@ -133,7 +133,7 @@ body {
   border-radius: 100px;
   /* transition property has to be in initial state */
   /* and so the transitions below will be animated in  */
-  /* relation to their initial state */
+  /* relation to their initial state.*/
   transition: all 0.2s;
   position: relative;
 }
